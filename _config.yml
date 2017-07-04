@@ -1,17 +1,19 @@
 # Site settings
-title: "fffabs"
-email: me@fffabs.com
+title: "jinbread labs"
+email: jinbread.lee@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  fffabs &copy 2015 - go create!
+  jinbread.co &copy 2014-2017
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://f-word.co" # the base hostname & protocol for your site
-twitter_username: fffabs
-github_username:  toxinide
+url: "https://jinbread.github.io" # the base hostname & protocol for your site
+github_username:  jinbread
 
 # Build settings
 markdown: kramdown
 permalink: ":title/"
 highlighter: pygments
+
+# Gems
+plugins: [jekyll-paginate]
 
 # Pagination
 paginate: 10
